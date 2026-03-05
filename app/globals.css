@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ::selection {
+    @apply bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900;
+  }
+}
+
+@theme {
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
